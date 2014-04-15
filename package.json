@@ -1,0 +1,20 @@
+{
+  "name": "zipfile",
+  "version": "0.0.0",
+  "description": "Unzip files from .zip archives in JavaScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelrhodes/zipfile.js.git"
+  },
+  "keywords": [
+    "unzip",
+    "client-side"
+  ],
+  "author": "Andreas Gal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/zipfile.js/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/zipfile.js"
+}

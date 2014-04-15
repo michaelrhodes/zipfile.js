@@ -324,6 +324,10 @@ function inflate(bytes) {
 }
 
 function ZipFile(buffer) {
+  if (!(this instanceof ZipFile)) {
+    return new ZipFile(buffer);
+  }
+
   var bytes = new Uint8Array(buffer);
   var view = new DataView(buffer);
 
@@ -398,6 +402,6 @@ ZipFile.prototype = {
   }
 };
 
-if (typeof exports === 'object') {
-  exports.ZipFile = ZipFile;
+if (typeof module === 'object') {
+  module.exports = ZipFile;
 }
