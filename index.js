@@ -324,9 +324,8 @@ function inflate(bytes) {
 }
 
 function ZipFile(buffer) {
-  if (!(this instanceof ZipFile)) {
+  if (!(this instanceof ZipFile))
     return new ZipFile(buffer);
-  }
 
   var bytes = new Uint8Array(buffer);
   var view = new DataView(buffer);
