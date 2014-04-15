@@ -1,5 +1,5 @@
 {
-  "name": "zipfile",
+  "name": "zipfile.js",
   "version": "0.0.0",
   "description": "Unzip files from .zip archives in JavaScript",
   "main": "index.js",
